@@ -136,7 +136,7 @@ interface StacSearchOperations {
       /**
        * Request body
        */
-      @body
+      @bodyRoot
       body: SearchPostRequest;
     },
     ItemCollection | NoContentResponse
