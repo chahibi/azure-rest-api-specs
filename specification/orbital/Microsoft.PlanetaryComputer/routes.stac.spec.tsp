@@ -133,11 +133,7 @@ interface StacSearchOperations {
   @post
   create is Azure.Core.Foundations.Operation<
     {
-      /**
-       * Request body
-       */
-      @bodyRoot
-      body: SearchPostRequest;
+      ...SearchPostRequest;
     },
     ItemCollection | NoContentResponse
   >;

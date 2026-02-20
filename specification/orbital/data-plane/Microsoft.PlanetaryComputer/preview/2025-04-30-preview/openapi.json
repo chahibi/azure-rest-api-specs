@@ -10855,7 +10855,6 @@
           {
             "name": "body",
             "in": "body",
-            "description": "Request body",
             "required": true,
             "schema": {
               "$ref": "#/definitions/SearchPostRequest"
